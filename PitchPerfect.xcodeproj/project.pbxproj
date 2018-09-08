@@ -56,13 +56,13 @@
 		82FE15C021422BA80036CD35 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				82FE15C121422BA80036CD35 /* AppDelegate.swift */,
-				82FE15C321422BA80036CD35 /* RecordSoundsViewController.swift */,
 				82FE15C521422BA80036CD35 /* Main.storyboard */,
+				82FE15C321422BA80036CD35 /* RecordSoundsViewController.swift */,
+				829A0E8B214390C200EC7ED4 /* PlaySoundsViewController.swift */,
 				82FE15C821422BA90036CD35 /* Assets.xcassets */,
 				82FE15CA21422BA90036CD35 /* LaunchScreen.storyboard */,
+				82FE15C121422BA80036CD35 /* AppDelegate.swift */,
 				82FE15CD21422BA90036CD35 /* Info.plist */,
-				829A0E8B214390C200EC7ED4 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
