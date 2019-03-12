@@ -39,6 +39,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821EC812223834AC00036822 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				82FE15C521422BA80036CD35 /* Main.storyboard */,
+				82FE15CA21422BA90036CD35 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		821EC813223834B400036822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82FE15C821422BA90036CD35 /* Assets.xcassets */,
+				82FE15C121422BA80036CD35 /* AppDelegate.swift */,
+				82FE15CD21422BA90036CD35 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		82FE15B521422BA80036CD35 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +77,11 @@
 		82FE15C021422BA80036CD35 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				82FE15C521422BA80036CD35 /* Main.storyboard */,
 				82FE15C321422BA80036CD35 /* RecordSoundsViewController.swift */,
 				829A0E8B214390C200EC7ED4 /* PlaySoundsViewController.swift */,
 				829A0E8F2143A7CA00EC7ED4 /* PlaySoundsViewController+Audio.swift */,
-				82FE15C821422BA90036CD35 /* Assets.xcassets */,
-				82FE15CA21422BA90036CD35 /* LaunchScreen.storyboard */,
-				82FE15C121422BA80036CD35 /* AppDelegate.swift */,
-				82FE15CD21422BA90036CD35 /* Info.plist */,
+				821EC812223834AC00036822 /* Storyboards */,
+				821EC813223834B400036822 /* Supporting Files */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -102,6 +118,7 @@
 				TargetAttributes = {
 					82FE15BD21422BA80036CD35 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -290,14 +307,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK26JKU2YA;
-				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PitchPerfect/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LambdaSchool.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -308,14 +325,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK26JKU2YA;
-				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PitchPerfect/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LambdaSchool.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
